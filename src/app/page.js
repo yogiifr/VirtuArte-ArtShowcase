@@ -14,16 +14,24 @@ export default function Home() {
 
       <div className="grid grid-cols-4 justify-center px-[100px] align-middle text-center h-5/6">
         <div className="bg-slate-50 flex flex-col justify-end items-start pl-10 pb-5">
-          <div className="text-[100px] text-left w-2/3 leading-[100px]">Leonardo da Vinci</div>
+          <Link href="./leonardo">
+            <div className="text-[100px] text-left w-2/3 leading-[100px]">Leonardo da Vinci</div>
+          </Link>
         </div>
         <div className=" flex flex-col justify-end items-start pl-10 pb-5">
-          <div className="text-[100px] text-left w-3/4 leading-[100px]">Vincent van Gogh</div>
+          <Link href="./vincent">
+            <div className="text-[100px] text-left w-3/4 leading-[100px]">Vincent van Gogh</div>
+          </Link>
         </div>
         <div className="bg-slate-50 flex flex-col justify-end items-start pl-10 pb-5">
-          <div className="text-[100px] text-left w-2/3 leading-[100px]">Frida Kahlo</div>
+          <Link href="./frida">
+            <div className="text-[100px] text-left w-2/3 leading-[100px]">Frida Kahlo</div>
+          </Link>
         </div>
         <div className=" flex flex-col justify-end items-start pl-10 pb-5">
-          <div className="text-[100px] text-left w-2/3 leading-[100px]">Pablo Picasso</div>
+          <Link href="./pablo">
+            <div className="text-[100px] text-left w-2/3 leading-[100px]">Pablo Picasso</div>
+          </Link>
         </div>
       </div>
     </main>
